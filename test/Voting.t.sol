@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-/*pragma solidity ^0.8.20;
+pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
 import "../src/Voting.sol";
@@ -24,4 +24,4 @@ contract VotingTest is Test {
         assertEq(yesCount, 2);   
         assertEq(noCount, 1);  
     }
-}*/
+}
